@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style_2.css">
+    <!--    <link rel="stylesheet" href="style.css">-->
+
+</head>
+<body>
+        <div class="container" id="contact-us">
+
+            <div class="big_title"> <h1 class="head1">Contact Us</h1></div>
+            <div class="border">
+            <div class="full-name">
+                <label for="full_name" class="name">FULL NAME *</label>
+                <br>
+                <input type="text" id="full_name" name="full_name" placeholder="Enter Your Full Name" required>
+            </div>
+            </div>
+            <div class="email-phone">
+                <div class="border">
+                <div class="email">
+                    <label for="email">EMAIL *</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                </div>
+                </div>
+                <div class="border">
+                <div class="phone">
+                    <label for="phone">PHONE NUMBER *</label>
+                    <br>
+                    <input type="tel" id="phone" name="phone" placeholder="Enter Number Phone" required>
+                </div>
+              </div>
+            </div>
+            <div class="border">
+            <div class="services">
+                <label for="services">NEED SERVICES *</label>
+                <br>
+                <select id="services" name="services">
+                    <option value="" disabled selected>Please chooses</option>
+                    <option value="web">Web development</option>
+                    <option value="mobile">Mobile development</option>
+                    <option value="data">Data science & AI</option>
+                    <option value="cloud">Cloud Services</option>
+                </select>
+            </div>
+            </div>
+            <div class="border">
+            <div class="message">
+                <label for="message">MESSAGE</label>
+                <br>
+                <textarea id="message" name="message" placeholder="Your message here..."></textarea>
+            </div>
+            </div>
+
+
+            <div class="submit">
+                <input type="submit" class="sub" value="SUBMIT ->">
+            </div>
+
+        </div>
+</body>
+</html>

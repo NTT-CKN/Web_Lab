@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    background-image: url("background_aldog.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 100vh;
+
+}
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+.form_log{
+    text-align: center;
+    width: 100%;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 550px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+.input{
+    width: 100px;
+}
+input{
+    border-radius:8px;
+    box-sizing: border-box;
+    height: 40px;
+    border: none;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 15px rgba(1, 1, 1, 0.08);
+}
+.input_username{
+
+}
+.input_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.submit_btn{
+    background: blueviolet;
+    width: 30%;
+    color: white;
+    border-radius: 10px;
+}
+.submit_btn:hover{
+    background-color: red;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.submit_btn:active{
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.small_text{
+    color: black;
+}
+.face_google{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+
+}
+a{
+    text-decoration: none;
+}
+.border{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.border:hover{
+    background-color: #cccccc;
+    cursor: pointer;
+}
+.sign_up{
+    padding-top: 120px;
+}

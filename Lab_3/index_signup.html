@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style_signup.css">
+</head>
+<body>
+
+<div class="registration-container">
+    <form class="registration-form">
+
+        <h3 class="section-title">Account</h3>
+
+        <div class="input-group">
+            <i class="fas fa-user input-icon"></i>
+            <input type="text" placeholder="Full Name" class="input-field">
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-envelope input-icon"></i>
+            <input type="email" placeholder="Email Adress" class="input-field">
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-lock input-icon"></i>
+            <input type="password" placeholder="Password" class="input-field">
+        </div>
+
+        <div class="two-column-layout">
+            <div class="date-section">
+                <h3 class="section-title">Date of Birth</h3>
+                <div class="dob-inputs">
+                    <input type="text" placeholder="DD" maxlength="2">
+                    <input type="text" placeholder="MM" maxlength="2">
+                    <input type="text" placeholder="YYYY" maxlength="4">
+                </div>
+            </div>
+
+            <div class="gender-section">
+                <h3 class="section-title">Gender</h3>
+                <div class="gender-options">
+                    <button type="button" class="gender-btn active">Male</button>
+                    <button type="button" class="gender-btn">Female</button>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="section-title">Payment Details</h3>
+
+        <div class="payment-methods">
+            <button type="button" class="payment-btn credit-card active">
+                <i class="fab fa-cc-visa"></i> Credit Card
+            </button>
+            <button type="button" class="payment-btn paypal">
+                <i class="fab fa-paypal"></i> Paypal
+            </button>
+        </div>
+
+        <div class="input-group">
+            <i class="fas fa-credit-card input-icon"></i>
+            <input type="text" placeholder="Card Number" class="input-field">
+        </div>
+
+        <div class="card-details">
+            <div class="input-group cvc-input">
+                <i class="fas fa-user input-icon"></i>
+                <input type="text" placeholder="Card CVC" class="input-field">
+            </div>
+
+            <div class="expiry-date-selects">
+                <select name="exp-month" class="date-select">
+                    <option>01 Jan</option>
+                </select>
+                <select name="exp-year" class="date-select">
+                    <option>2015</option>
+                </select>
+            </div>
+        </div>
+
+        <h3 class="section-title terms-title">Terms and Conditions</h3>
+
+        <label class="terms-checkbox">
+            <input type="checkbox" checked>
+            <span>I accept the terms and conditions for signing up to this service, and hereby confirm i have read the privacy policy.</span>
+        </label>
+
+    </form>
+</div>
+</body>
+</html>
